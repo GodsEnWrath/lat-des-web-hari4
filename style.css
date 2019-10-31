@@ -81,7 +81,10 @@ html {
 /* ----------------------Project------------------------------ */
 
 .newProject {
-  color: #fff;
+  color: #ffffff;
+}
+.project {
+  color: #ffffff;
 }
 
 .features .footer img {
@@ -98,38 +101,26 @@ html {
 }
 
 /*--- footer section ---*/
-
-.footer .form-control,
-.footer input {
-  border-radius: 0;
-}
-
-.footer .btn {
-  background-color: #589b37;
-  border: 1px solid #589b37;
-  color: #fff;
-
-  margin-top: 20px;
-}
-
-.footer .btn:hover {
-  background-color: #333;
-  border: 1px solid #333;
-}
-
 .footer {
-  position: relative;
-  background-color: #dfffce;
-  text-align: center;
+  height: 40%;
+  background-color: #ff9292;
 }
 
-.footer-title {
-  color: rgb(253, 4, 4);
+.foo {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ter {
+  font-size: 50px;
+  color: #ffffff;
   text-align: center;
-  font-size: 1.3rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* --- media queries ---  */
