@@ -1,0 +1,47 @@
+html {
+  height: auto;
+  width: auto;
+  background: #ff7474;
+  margin: 0;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background: #e04040;
+  opacity: 0.7;
+  z-index: 3;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.newProject {
+  color: #ffffff;
+}
+.project {
+  color: #ffffff;
+  margin: 0px;
+}
+
+.features .footer img {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+  height: 10%;
+}
+
+.features {
+  margin-top: 5px;
+  position: relative;
+  text-align: center;
+  background-color: #f65353;
+}
