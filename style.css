@@ -1,0 +1,140 @@
+html {
+  height: auto;
+  width: auto;
+  background: #ffffff;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background: #e04040;
+  opacity: 0.7;
+  z-index: 3;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+/* ----------------------head------------------------------- */
+.header {
+  background-color: #c38686;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: auto;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.desc {
+  text-align: center;
+}
+
+.description p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.divider {
+  height: 20px;
+  background-color: rgba(247, 83, 83, 0.46);
+}
+/* --------------------------about me-------------------------- */
+
+.ut {
+  height: 40%;
+  background-color: rgba(255, 180, 180, 0.75);
+}
+
+.me {
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.medesc {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------Project------------------------------ */
+
+.newProject {
+  color: #fff;
+}
+
+.features .footer img {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+  height: 10%;
+}
+
+.features {
+  margin-top: 5px;
+  position: relative;
+  text-align: center;
+  background-color: #f65353;
+}
+
+/*--- footer section ---*/
+
+.footer .form-control,
+.footer input {
+  border-radius: 0;
+}
+
+.footer .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+
+  margin-top: 20px;
+}
+
+.footer .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.footer {
+  position: relative;
+  background-color: #dfffce;
+  text-align: center;
+}
+
+.footer-title {
+  color: rgb(253, 4, 4);
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* --- media queries ---  */
+@media (max-width: 400px) {
+  .header {
+    height: 435px;
+  }
+}
